@@ -1,4 +1,4 @@
-/* Program to determine if a random number is a positive number, negative or zero */
+/* Program to determine if a random number is a +ve, -ve  or zero */
 
 #include <stdlib.h>
 #include <time.h>
