@@ -2,8 +2,8 @@
 
 /**
  *  * main - A description
- *   * Return: integer
-*/
+ *  * Return: integer
+ */
 int main(void)
 {
 	char str[] = "and that piece of art is useful\" - \
