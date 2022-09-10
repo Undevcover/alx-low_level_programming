@@ -3,7 +3,7 @@
 /**
  *  * main - A description
  *   * Return: integer
- */
+*/
 int main(void)
 {
 	char str[] = "and that piece of art is useful\" - \
