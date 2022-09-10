@@ -3,7 +3,8 @@
 /**
  *  * main - Gte size of various primitives
  *   * Return: integer
- *    */
+ *
+ */
 int main(void)
 {
 printf("Size of a char: %lu byte(s)\n", sizeof(char));
