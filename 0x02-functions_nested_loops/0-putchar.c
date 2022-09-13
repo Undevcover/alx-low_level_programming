@@ -8,7 +8,8 @@
 int main(void) /* The function returns void */
 {
 	char str[] = "_putchar";
-	printf ("%s", str);
+
+	printf("%s", str);
 	putchar('\n');
 	return (0);
 }
