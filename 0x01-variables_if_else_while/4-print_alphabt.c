@@ -1,0 +1,24 @@
+/* C program to print all lower case alphabets except q and e */
+ 
+#include <stdio.h>
+
+/**
+ * main -Main function entry point
+ * Return: Always zero
+ */
+int main() /* returns void */
+{
+	char letter;
+
+	for(letter = 'a'; letter <= 'z'; letter++)
+	{
+		if (letter = 'q' || letter= 'e')
+		{
+			putchar('')
+		}
+			putchar(letter);
+	}
+	putchar('\n')
+	return (0);
+}
+
