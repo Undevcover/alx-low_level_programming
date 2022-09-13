@@ -1,5 +1,5 @@
-/*C program to print all upper case and lower case alphabets.*/
- 
+/* C program to print all upper case and lower case alphabets */
+
 #include <stdio.h>
 
 /**
@@ -9,8 +9,9 @@
  
 int main(void) /* Returns void */
 {
-	char uppercase ='a';
+	char uppercase ='a';	
 	char lowercase ='A';
+	
 	for (uppercase='a'; uppercase<='z'; uppercase++)
 		putchar(uppercase);
 	
