@@ -10,7 +10,7 @@ int main(void) /* The function returns void */
 {
 	char c[] = "_putchar";
 
-	_putchar (c);
+	_putchar (char c);
 	putchar('\n');
 	return (0);
 }
