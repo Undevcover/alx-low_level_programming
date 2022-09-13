@@ -1,4 +1,3 @@
-/* C program to print an ugly word */
 #include "main.h"
 
 /**
