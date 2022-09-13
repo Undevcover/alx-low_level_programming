@@ -16,5 +16,6 @@ int main(void) /* Returns void */
 	
 	for (lowercase='A'; lowercase<='Z'; lowercase++)
 		putchar(lowercase);
-       return 0;
+	putchar('\n');
+	return 0;
 }
