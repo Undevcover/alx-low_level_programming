@@ -8,9 +8,9 @@
  */
 int main(void) /* The function returns void */
 {
-	char str[] = "_putchar";
+	char c[] = "_putchar";
 
-	_putchar (char str);
+	_putchar (c);
 	putchar('\n');
 	return (0);
 }
