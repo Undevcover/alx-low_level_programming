@@ -6,7 +6,7 @@
  * Return: Always zero
  */
  
-int main()
+int main(void) /* Returns void */
 {
     char i;
 
