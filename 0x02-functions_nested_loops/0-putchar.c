@@ -9,7 +9,7 @@ int main(void) /* The function returns void */
 {
 	char str[] = "_putchar";
 
-	printf("%s", str);
+	_putchar( str);
 	putchar('\n');
 	return (0);
 }
