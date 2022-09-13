@@ -1,19 +1,13 @@
+/*  C program to print all single digit of hex*/
 #include <stdio.h>
-#include "main.h"
 
 /**
- * main - function entry point
- * return: returns zero
+ * main -Main function entry point
+ * Return: Always zero
  */
-int main(void)
+int main(void) /* The function returns void */
 {
-	char myarr[9] = "_putchar";
-	int i = 0;
-
-	for (i = 0; i < 8; i++)
-	{
-		_putchar(myarr[i]);
-	}
-	putchar('\n');
+	char str[] = "_putchar";
+	printf ("%s", str);
 	return (0);
 }
