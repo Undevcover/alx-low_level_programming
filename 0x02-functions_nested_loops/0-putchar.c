@@ -7,7 +7,7 @@
  */
 int main(void) /* The function returns void */
 {
-	char string[] = "_putchar";
+	char str[] = "_putchar";
 
 	printf("%s", str);
 	putchar('\n');
