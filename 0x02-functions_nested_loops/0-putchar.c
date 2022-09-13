@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -13,7 +14,7 @@ int main(void)
 	{
 		_putchar(myarr[i]);
 	}
-	_putchar('\n');
+	putchar('\n');
 
 	return (0);
 }
