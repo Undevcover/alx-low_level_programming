@@ -14,7 +14,7 @@ int main(void) /* returns void */
 	{
 		if (letter == 'q' || letter == 'e')
 		{
-			putchar('');
+			continue('');
 		}
 		putchar(letter);
 	}
