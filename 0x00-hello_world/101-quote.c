@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Explanation of my code 
+ * main - Explanation
  * Return: An integer
  */
 int main(void)
