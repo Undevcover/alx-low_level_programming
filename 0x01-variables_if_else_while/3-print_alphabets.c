@@ -4,6 +4,7 @@
  * main -Main function entry point
  * Return: Always zero
  */
+
 int main(void) /* Returns void */
 {
 	char uppercase = 'a';
