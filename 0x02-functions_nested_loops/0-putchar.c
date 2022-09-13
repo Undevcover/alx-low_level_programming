@@ -1,5 +1,5 @@
 /* C program to print an ugly word */
-#include <main.h>
+#include "main.h"
 
 /**
  * main - function entry point
