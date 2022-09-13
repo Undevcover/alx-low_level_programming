@@ -9,12 +9,12 @@
  
 int main(void) /* Returns void */
 {
-	char i;
+	char uppercase ='a';
+	char lowercase ='A';
+	for (uppercase='a'; uppercase<='z'; uppercase++)
+		putchar(uppercase);
 	
-	for (i='a'; i<='z'; i++)
-		putchar("%c ",i);
-	
-	for (i='A'; i<='Z'; i++)
-		putchar("%c ",i);
+	for (lowercase='A'; lowercase<='Z'; lowercase++)
+		putchar(lowercase);
        return 0;
 }
