@@ -1,7 +1,6 @@
-/* Program to determine if a random number is positive, negative or zero */
+/* Program to print all alphabets in lower case */
 
-#include <stdlib.h>
-#include <time.h>
+
 #include <stdio.h>
 
 /**
