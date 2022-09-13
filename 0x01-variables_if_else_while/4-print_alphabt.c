@@ -6,19 +6,19 @@
  * main -Main function entry point
  * Return: Always zero
  */
-int main() /* returns void */
+int main(void) /* returns void */
 {
-	char letter;
+	char letter = 'a';
 
 	for(letter = 'a'; letter <= 'z'; letter++)
 	{
-		if (letter = 'q' || letter= 'e')
+		if (letter == 'q' || letter == 'e')
 		{
-			putchar('')
+			putchar('');
 		}
-			putchar(letter);
+		putchar(letter);
 	}
-	putchar('\n')
+	putchar('\n');
 	return (0);
 }
 
