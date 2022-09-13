@@ -1,19 +1,21 @@
-/* Program to print all alphabets in lower case */
-
-
+/*C program to print all upper case and lower case alphabets.*/
+ 
 #include <stdio.h>
-
 /**
- * main - entry point
- * Return: zero
+ * main -Main function entry point
+ * Return: Always zero
  */
-int main(void) /* returns void */
+ 
+int main()
 {
-	int i = 0;
+    char i;
 
-	for (i = 0; i <= 9; i++)
-		putchar(i + '0');
-		putchar(', ');
-	putchar('\n');
-	return (0);
+    for(i='a'; i<='z'; i++)
+    putchar("%c ",i);
+ 
+    for(i='A'; i<='Z'; i++)
+        putchar("%c ",i);
+ 
+     
+    return 0;
 }
