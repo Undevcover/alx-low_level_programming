@@ -13,6 +13,5 @@ int _islower(int c)
 		{
 			_putchar(1);
 		}
-	}	
-	_putchar(0);
+	}
 }
