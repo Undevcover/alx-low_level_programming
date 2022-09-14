@@ -9,7 +9,7 @@ int _islower(int c)
 
 	for (letter = 'A'; letter <= 'Z'; letter++)
 	{
-		if (c == islower(letter))
+		if (c == _islower(letter))
 		{
 			_putchar(1);
 		}
