@@ -4,7 +4,7 @@
 /**
  * main - check the code
  *
- * Return: Always 0.
+ * Return: Always zero
  */
 void print_alphabet(void) /* returns void */
 {
