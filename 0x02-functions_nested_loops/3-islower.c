@@ -7,11 +7,8 @@ int _islower(int c)
 {
 	int letter;
 
-	for (letter = 'A'; letter <= 'Z'; letter++)
-	{
-		if (c == _islower(letter))
-		{
+		if (c >= 97 && c <=122)
 			_putchar(1);
-		}
-	}
+		else 
+			_putchar(0);
 }
