@@ -1,3 +1,4 @@
+/* C function to print all lowercase alphabets */
 #include "main.h"
 
 /**
