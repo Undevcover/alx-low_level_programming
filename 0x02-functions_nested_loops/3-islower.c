@@ -9,10 +9,10 @@ int _islower(int c)
 
 	for (letter = 'a'; letter <= 'z'; letter++)
 	{
-		if (letter)
+		if (c == letter)
 		{
-			_putchar(0);
+			_putchar(1);
 		}
 	}	
-	_putchar(1);
+	_putchar(0);
 }
