@@ -3,9 +3,8 @@
  * my_function - This is a description
  */
 
-int _islower(int c) 
+int _islower(int c)
 {
-	int letter;
 
 		if (c >= 97 && c <=122)
 			_putchar(1);
