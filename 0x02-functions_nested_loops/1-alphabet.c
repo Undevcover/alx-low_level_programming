@@ -1,10 +1,7 @@
-/* C function to print all lowercase alphabets */
 #include "main.h"
 
 /**
- * main - check the code
- *
- * Return: Always zero
+ * print_alphabet -prints all lowercase alphabets
  */
 void print_alphabet(void) /* returns void */
 {
