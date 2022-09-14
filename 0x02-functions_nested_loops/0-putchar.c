@@ -1,5 +1,5 @@
-/*  C program to print all single digit of hex*/
-#include <stdio.h>
+/*  C program to prints putchar */
+#include <main.h>
 
 /**
  * main -Main function entry point
@@ -8,8 +8,12 @@
 int main(void) /* The function returns void */
 {
 	char str[] = "_putchar";
+	int i;
+	for (i = 0; i <= 9; i++)
+	{
+		_putchar(str[i])
+	}
 
-	printf("%s", str);
-	putchar('\n');
+	_putchar('\n');
 	return (0);
 }
