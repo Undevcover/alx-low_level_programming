@@ -1,12 +1,13 @@
 #include "main.h"
 /*
- * Checks if c is a single digit betwen 1 and 9
- * 
+ * _isdigit - Checks if c is a single digit betwen 1 and 9
+ *@c: digit in question 
+ *Return: 1 if c is a digit and 0 therwise
  */
 
 int _isdigit(int c)
 {
-	if ((c >= 0)&&(C <= 9)) 
+	if ((c >= '0')&&(C <= '9')) 
 	{
 		return(1);
 	}
