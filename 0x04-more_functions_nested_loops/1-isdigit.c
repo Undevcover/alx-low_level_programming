@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 /*
  * Checks if c is a single digit betwen 1 and 9
  * 
