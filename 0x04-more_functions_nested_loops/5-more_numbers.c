@@ -10,7 +10,7 @@
 	 int i;
 	 int j;
 
-	:wqfor (i = 0; i <15; i++)
+	for (i = 0; i <15; i++)
 	{
 		j= i*10;
 		_putchar(j);
