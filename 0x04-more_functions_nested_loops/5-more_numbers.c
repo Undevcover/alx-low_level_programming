@@ -2,6 +2,7 @@
 /*
  * more_numbers - function thatb prints 10*
  * the numbers from 0-14
+ *@i, @j -variables
  * Return: zero
  */
 
@@ -14,7 +15,7 @@ void more_numbers(void)
 	{
 		for (j = 0; j < 11; j++)
 		{
-			_putchar(i);
+			_putchar(i+ '0');
 		}
 		_putchar('\n');
 	}
