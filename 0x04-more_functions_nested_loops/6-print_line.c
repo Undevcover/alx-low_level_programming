@@ -7,6 +7,7 @@
 void print_line(int n)
 {
 	int i;
+	char space = '_';
 
 	for (i = 0; i <= n; i++)
 	{
@@ -14,6 +15,6 @@ void print_line(int n)
 		{
 			_putchar('\n')
 		}
-		_putchar('_');
+		_putchar(space);
 	}
 }
