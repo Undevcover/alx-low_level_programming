@@ -1,11 +1,13 @@
 #include "main.h"
 /**
- * _atoi - function that converts a string to an integer
- * @s: the string to be converted to an integer
- *Return: returns an integer
+ * *_strcpy - function that copies a string pointed to by src
+ * including terminating null byte
+ * @rc: source string
+ * @dest: destination string 
+ * Return: returns copied string
  */
 
-int _atoi(char *s)
+char *_strcpy(char *dest, char *src)
 {
 	int i;
 
