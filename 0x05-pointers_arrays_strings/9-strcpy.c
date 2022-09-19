@@ -2,9 +2,9 @@
 /**
  * *_strcpy - function that copies a string pointed to by src
  * including terminating null byte
- * @rc: source string
- * @dest: destination string 
- * Return: returns copied string
+ * @src: source string
+ * @dest: destination string
+ * Rturn: returns copied string
  */
 
 char *_strcpy(char *dest, char *src)
