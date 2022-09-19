@@ -9,7 +9,8 @@ void print_rev(char *s)
 	char letter;
 
 	for (i = 0; s[i] != '\0'; i++);
-	for (i = i -1; i >= 0; i--)
+
+	for (i = i - 1; i >= 0; i--)
 	{
 		letter = s[i];
 		_putchar (letter);
