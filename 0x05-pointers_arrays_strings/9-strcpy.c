@@ -4,7 +4,7 @@
  * including terminating null byte
  * @src: source string
  * @dest: destination string
- * Rturn: returns copied string
+ * Return: returns copied string
  */
 
 char *_strcpy(char *dest, char *src)
