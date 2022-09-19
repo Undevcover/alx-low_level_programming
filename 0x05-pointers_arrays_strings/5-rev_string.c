@@ -11,7 +11,7 @@ void rev_string(char *s)
 
 	for (i = 0; s[i] = '\0'; i++)
 		;
-	for i = i - 1; j < i; i--)
+	for (i = i - 1; j < i; i--)
 	{
 		letter = s[i];
 		s[i] = s[j];
