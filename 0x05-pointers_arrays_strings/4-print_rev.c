@@ -13,8 +13,8 @@ void print_rev(char *s)
 		for (i = i -1; i >= 0; i--)
 		{
 			letter = s[i];
-			-putchar (letter);
+			_putchar (letter);
 		}
 	}
-	-putchar('\n');
+	_putchar('\n');
 }
