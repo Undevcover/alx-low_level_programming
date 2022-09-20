@@ -6,7 +6,7 @@
  */
 int _atoi(char *s)
 {
-	int num, neg;
+	int i, num, neg;
 
 	neg = 1;
 	i = num = 0;
@@ -29,6 +29,6 @@ int _atoi(char *s)
 			i++;
 		}
 	}
-	negative = negative * -1;
-	return (num * negative);
+	neg = neg * -1;
+	return (num * neg);
 }
