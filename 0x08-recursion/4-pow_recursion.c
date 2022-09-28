@@ -4,6 +4,7 @@
  *x raised to the power of y
  *@x: the number to be powered
  *@y: the superscript, the power, tha guy
+ * Return: powered number
  */
 int _pow_recursion(int x, int y)
 {
