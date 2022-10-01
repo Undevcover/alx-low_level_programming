@@ -1,5 +1,5 @@
 #include <stdio.h>
-#define UNUSED(argv) (void)(argc)
+#define UNUSED(argv) (void)(argv)
 /**
  * main - main function body
  * @argv: arguement vector
