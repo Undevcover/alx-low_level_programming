@@ -2,10 +2,10 @@
 #include <stdio.h>
 #define UNUSED(argc) (void)(argc)
 /**
- *Main- tha main function
- *@argc: argument count
- *@argv: array of argument strings
- *Return- always zero
+ * main - tha main function
+ * @argc: argument count
+ * @argv: array of argument strings
+ * Return: zero
  */
 int main(int argc, char *argv[])
 {
