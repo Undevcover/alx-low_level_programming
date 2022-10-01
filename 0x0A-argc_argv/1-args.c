@@ -6,7 +6,7 @@
  * @argc: arguement count
  * Return: zero if successful
  */
-int main(int argc, argv[])
+int main(int argc, char *argv[])
 {
 	UNUSED(argv[]);
 	printf("%d\n", argc - 1);
