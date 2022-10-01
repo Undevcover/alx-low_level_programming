@@ -11,7 +11,7 @@ int main(int argc, char *argv[])
 	int i;
 	int sum = 0;
 	
-	if (argc < 1)
+	if (argc == 1)
 		printf("%d\n", 0);
 
 	for (i = 0; i < argc; i++)
