@@ -9,6 +9,6 @@
 int main(int argc, argv[])
 {
 	UNUSED(argv[]);
-	printf("%d", argc);
+	printf("%d\n", argc);
 	return (0);
 }
