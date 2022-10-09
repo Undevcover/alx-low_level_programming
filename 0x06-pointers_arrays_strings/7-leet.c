@@ -11,7 +11,7 @@ char *leet(char *s)
 
 	for (i = 0; s[i] != '\0'; i++)
 	{
-		for (j = 0; j < 11; j++)
+		for (j = 0; j < 16; j++)
 			if (s[i] == myleet[j])
 				s[i] = j / 2 + '0';
 	}
