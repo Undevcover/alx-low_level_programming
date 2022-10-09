@@ -7,7 +7,7 @@
 char *leet(char *s)
 {
 	int i, j;
-	char myleet[] = "oOlLeEaAtT";
+	char myleet[] = "oOlL22eEaA5566tT";
 
 	for (i = 0; s[i] != '\0'; i++)
 	{
