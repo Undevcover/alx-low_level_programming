@@ -1,5 +1,4 @@
 #include "main.h"
-#include <string.h>
 /**
  * *_memset - This function fills memory with a constant byte
  * @s: The array buffer to fill
