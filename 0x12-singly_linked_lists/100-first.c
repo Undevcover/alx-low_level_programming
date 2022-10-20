@@ -3,7 +3,7 @@
 void __attribute__((constructor)) print(void);
 
 /**
- * print - Function that prints a sentence before the main function is executed.
+ * print - Function that prints a sentence before the main function is executed
  */
 
 void print(void)
