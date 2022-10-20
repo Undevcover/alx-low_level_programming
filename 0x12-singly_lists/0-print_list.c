@@ -1,5 +1,5 @@
 #include "lists.h"
-/*
+/**
  * print_list - This function prints all the elements of the list_t
  * @h: The list to be printed
  * Return: The number of nodespresent
