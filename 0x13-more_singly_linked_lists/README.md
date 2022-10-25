@@ -9,3 +9,4 @@
 8. function that returns the sum of all the data (n) of a listint_t linked list.
 9. Write a function that inserts a new node at a given position
 10. Write a function that deletes the node at index index of a listint_t linked list
+11. Write a function that reverses a listint_t linked list
