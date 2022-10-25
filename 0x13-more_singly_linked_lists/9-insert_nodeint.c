@@ -1,12 +1,12 @@
 #include "lists.h"
-
+#include <stdio.h>
 listint_t *create_new_node(int n);
 /**
- * insert_nodeint_at_index - function that inserts a node at a given index
+ * insert_nodeint_at_index - Inserts a node at a given index
  * @head: Pointer to the first element of the list
  * @idx: Index to insert a node at
  * @n: number to be inserted into the node
- * Return: Address of the newly created node
+ * Return: The address of the newly created node
  */
 listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 {
@@ -45,7 +45,7 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 }
 
 /**
- * create_new_node - function that creates a new node
+ * create_new_node - Creates a new node
  * @n: Value to add to new node
  * Return: A pointer to a node
  */
