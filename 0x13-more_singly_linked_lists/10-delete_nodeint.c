@@ -1,4 +1,5 @@
 #include "lists.h"
+#include <stdlib.h>
 /**
  * delete_nodeint_at_index - Function that deletes a node at a particular index
  * @head: Pointer to the beginning of the list
