@@ -24,7 +24,7 @@ unsigned int binary_to_uint(const char *b)
 	/* find the length of b */
 	for (blen = 0; b[blen] != '\0'; blen++)
 		;
-	if b(blen == 1 && (b[0] == '0' || b[0] == '1'))
+	if (blen == 1 && (b[0] == '0' || b[0] == '1'))
 		return ((b[0] - 48));
 	for (i = 0; b[i] != '\0'; i++)
 	{
