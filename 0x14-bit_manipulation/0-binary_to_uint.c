@@ -2,25 +2,18 @@
 #include <stdlib.h>
 
 /**
- *
- *
- *
- *
+ * binary_to_uint - function that convert a binary number to an unsigned integer
+ * @b: String representing a binary number
+ * Return: The converted number or 0 if b is NULL or if there are chars
+ * that are not 0 or 1
  */
-
 unsigned int binary_to_uint(const char *b)
 {
-	// Thought process
-	// 1. find the length of b;
-	//loop through and power 2 through each loop
-	//multiply each element of b with corresponding power of 2
-	//add the result
-	//return the final result
-	unsigned int len;
-	unsigned int i;
-	unsigned int j;
+	short blen;
+	short i;
+	short j;
 	unsigned int sum;
-	unsigned int pow;
+	int pow;
 	short base;
 
 	base = 2;
@@ -28,9 +21,10 @@ unsigned int binary_to_uint(const char *b)
 	pow = 1;
 	if (b == NULL)
 		return (0);
-	for (len = 0; b[len] != '\0'; len++)
+	/* find the length of b */
+	for (blen = 0; b[blen] != '\0'; blen++)
 		;
-	if (len == 1 && (b[0] == '0' || b[0] == '1'))
+	if b(len == 1 && (b[0] == '0' || b[0] == '1'))
 		return ((b[0] - 48));
 	for (i = 0; b[i] != '\0'; i++)
 	{
