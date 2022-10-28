@@ -9,9 +9,9 @@
  */
 unsigned int binary_to_uint(const char *b)
 {
-	unsigned int blen;
-	unsigned int i;
-	unsigned int j;
+	short blen;
+	short i;
+	short int j;
 	unsigned int sum;
 	unsigned int pow;
 	int base;
