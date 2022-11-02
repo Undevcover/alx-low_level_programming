@@ -11,6 +11,6 @@ void print_binary(unsigned long int n)
 	while (n > 0)
         {
                 n = n/2;
-               _putchar( n&1);
+               _printf("%lu", n&1);
         }
 }
