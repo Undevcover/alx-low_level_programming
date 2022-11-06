@@ -1,13 +1,15 @@
 #include "main.h"
 /**
- * my_function - This is a description
+ * _islower - Function that checks for lowercase character
+ * @c: character tomcheck
+ * Return: 0 if absent and 1 if present
  */
 
 int _islower(int c)
 {
 
-		if (c >= 97 && c <=122)
+		if (c >= 97 && c <= 122)
 			return (1);
-		else 
-			return(0);
+		else
+			return (0);
 }
