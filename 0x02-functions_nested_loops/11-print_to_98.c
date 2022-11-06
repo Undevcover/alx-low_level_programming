@@ -7,15 +7,19 @@
 void print_to_98(int n)
 {
 	int i;
-	for (i = n; i <99; i++)
+
+	for (i = n; i < 99; i++)
 	{
 		if (i < 98)
 		{
-			printf("%d, ", i);
+			_putchar(i);
+			_putchar(' ');
+			_putchar(',');
 		}
-		else 
+		else
 		{
-			printf("%d\n", i);
+			_putchar('\n');
+			_putchar(i);
 		}
 	}
 }
