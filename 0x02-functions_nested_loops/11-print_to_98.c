@@ -13,8 +13,8 @@ void print_to_98(int n)
 		if (i < 98)
 		{
 			_putchar(i);
-			_putchar(' ');
 			_putchar(',');
+			_putchar(' ');
 		}
 		else
 		{
