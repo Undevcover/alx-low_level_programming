@@ -4,10 +4,9 @@
  * except 2 and 4
  * Return: always void
  */
-void print_most_numbers(voi)
+void print_most_numbers(void)
 {
-
-	for (i = 0; i <= 9; i++)
+	for ( int i = 0; i <= 9; i++)
 	{
 		if ((i == 2)||(i == 4))
 			continue;
