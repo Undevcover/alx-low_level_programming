@@ -4,9 +4,8 @@
  * except 2 and 4
  * Return: always void
  */
-void print_most_numbers(void)
+void print_most_numbers(voi)
 {
-	int i;
 
 	for (i = 0; i <= 9; i++)
 	{
