@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include "main.h"
 /**
  * print_times_table - function that prints n times table, starting with 0
  * @n: the integer parameter
@@ -20,6 +20,7 @@ void print_times_table(int n){
 					_putchar(' ');
 				}
 			_putchar('\n');
+				}
 			}
 		}
 	}
