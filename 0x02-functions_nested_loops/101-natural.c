@@ -15,6 +15,6 @@ int main()
 			j += i;
 		}
 	}
-	printf("%d", j)
+	printf("%d", j);
 	return 0;
 }
