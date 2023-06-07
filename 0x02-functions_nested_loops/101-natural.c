@@ -2,7 +2,7 @@
 #include "main.h"
 /**
  * main - entry point of program
- * Return - 0
+ * Return: always 0
  */
 
 int main(void)
@@ -16,7 +16,6 @@ int main(void)
 			j += i;
 		}
 	}
-	printf("%d", j);
-	_putchar('\n');
-	return(0);
+	printf("%d\n", j);
+	return (0);
 }
