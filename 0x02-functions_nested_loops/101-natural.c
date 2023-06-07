@@ -2,10 +2,10 @@
 #include "main.h"
 /**
  * main - entry point of program
- * Returm - 0
+ * Return - 0
  */
 
-int main()
+int main(void)
 {
 	int i, j = 0;
 
@@ -18,5 +18,5 @@ int main()
 	}
 	printf("%d", j);
 	_putchar('\n');
-	return 0;
+	return(0);
 }
