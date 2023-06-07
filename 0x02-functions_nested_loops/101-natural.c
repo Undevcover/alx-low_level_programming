@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 /**
  * main - entry point of program
  * Returm - 0
@@ -16,5 +17,6 @@ int main()
 		}
 	}
 	printf("%d", j);
+	_putchar('\n')
 	return 0;
 }
