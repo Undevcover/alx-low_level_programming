@@ -1,26 +1,28 @@
 #include "main.h"
 /**
-  * print_line- function that prints a diagonal line in the terminal
-  * @n: number of space 
-  * Return: printed 
-  */
+ * print_diagonal - prints a diagonal line in stdout
+ * @n: diagonal frequency
+ * Return: void
+ */
+
 void print_diagonal(int n)
 {
-	int i, j;
-	
-	if (n > 0)
+	if (n <= 0)
 	{
-		for (i = 0; i < n; i++)
-		{
-			for (j = 0; j < i; j++)
-			{
-				_putchar(' ');
-			}
-			_putchar('\\');
-			_putchar('$');
-			_putchar('\n');
-		}
-
+		putchar('$');
 	}
-	_putchar('\n');
+	int i;
+	int j;
+
+	for (i = 0; i < n; i++)
+	{
+		for (j = 0; j < i; j++)
+		{
+			_putchar(' ');
+		}
+		_putchar('\\');
+		_putchar('$');
+		_putchar('\n');
+	}
+	putchar('\n');
 }
