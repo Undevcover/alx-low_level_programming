@@ -9,13 +9,12 @@ void more_numbers(void)
 	int i;
 	int j;
 
-	for (i = 0; i < 15; i++)
+	for (i = 1; i < 11; i++)
 	{
-		for (j = 0; j < 11; j++)
+		for (j = 0; j < 15; j++)
 		{
-			_putchar(i + '0');
+			printf("%d", j);
 		}
 		_putchar('\n');
 	}
-	 _putchar('\n');
 }
