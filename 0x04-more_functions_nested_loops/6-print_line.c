@@ -1,9 +1,10 @@
 #include "main.h"
- /**
-  * print_line - function that prints a line in the terminal
-  * @n: number of lines
-  * Return: printed line
-  */
+/**
+ * print_line - function that prints a line in the standard output
+ * @n: number of lines
+ * Return: void
+ */
+
 void print_line(int n)
 {
 	int i;
