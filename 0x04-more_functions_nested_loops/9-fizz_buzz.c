@@ -26,7 +26,10 @@ int main(void)
 		{
 			printf("%d", i);
 		}
-		putchar(' ');
+		if (i < 100)
+		{
+			putchar(' ');
+		}
 	}
 	printf("\n");
 	return (0);
